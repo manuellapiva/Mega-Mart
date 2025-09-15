@@ -3,6 +3,18 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.up{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.upper {
+    display: flex;
+    gap: 10px;
+}
+
+
 .footer {
   background: #039be5; /* Azul */
   color: #fff;
