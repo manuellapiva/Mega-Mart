@@ -117,7 +117,7 @@ footer {
 }
 
 .final {
-  border-bottom: 2px solid rgba(253, 252, 252, 0.5);
+  border-top: 2px solid rgba(253, 252, 252, 0.5);
   display: flex;
   justify-content: center;
 }
