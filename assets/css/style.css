@@ -5,6 +5,11 @@ body {
   background-color: aliceblue;
 }
 
+.hfoto {
+  display: flex;
+  justify-content: center;
+}
+
 .up {
   display: flex;
   justify-content: space-around;
