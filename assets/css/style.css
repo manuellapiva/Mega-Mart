@@ -138,6 +138,8 @@ footer {
   padding-bottom: 5px;
 }
 
+.footer-section ul {
+  padding: 0;
 
 .footer-section-final {
   text-align: center;
