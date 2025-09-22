@@ -55,6 +55,11 @@ body {
   margin-right: 15px;
 }
 
+.hfoto {
+  display: flex;
+  justify-content: center;
+}
+
 .menu a {
   display: block;
   padding: 14px;
