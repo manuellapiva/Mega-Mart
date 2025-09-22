@@ -130,3 +130,48 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.4);
   padding-top: 15px;
 }
+
+.s1,
+.s2 {
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+}
+
+card1,
+card2,
+card3,
+card4,
+card5,
+card6 {
+    width: 15%;
+    border-radius: 12px;
+    background-color:rgb(235, 239, 241);
+    box-shadow: 0 1px 1px var rgb(0, 4, 8);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+card1 img,
+card2 img,
+card3 img,
+card4 img,
+card5 img,
+card6 img {
+    height: 160px;
+    padding-top: 1rem;
+    flex-direction: row;
+    
+}
+.s3 {
+    background-color: rgb(3, 162, 254);
+    text-decoration: none; 
+    
+    
+}
+.links{
+    background-color: rgb(3, 162, 254);
+}
+
