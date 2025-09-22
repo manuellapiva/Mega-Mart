@@ -218,6 +218,53 @@ footer {
     padding-top: 15px;
 }
 
+.s1,
+.s2 {
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    padding: 0;
+}
+
+cards1,
+cards2,
+cards3,
+cards4,
+cards5,
+cards6 {
+    width: 15%;
+    border-radius: 12px;
+    background-color:rgb(235, 239, 241);
+    box-shadow: 0 1px 1px var rgb(0, 4, 8);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin:40px;
+    padding: 5px;
+    margin-top: 0;
+}
+
+cards1 img,
+cards2 img,
+cards3 img,
+cards4 img,
+cards5 img,
+cards6 img {
+    height: 160px;
+    padding-top: 1rem;
+    flex-direction: row;
+    
+}
+.s3 {
+    background-color: rgb(3, 162, 254);
+    text-decoration: none; 
+    
+    
+}
+.links{
+    background-color: rgb(3, 162, 254);
+=======
 .cards {
     display: flex;
     justify-content: space-around;
@@ -263,16 +310,10 @@ footer {
     box-shadow: 0 2px 5px black;
 }
 
-.discount {
-    display: flex;
-    margin-left: auto;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding: 5px;
-    background-color: #039be5;
-    width: fit-content;
+.frutas{
+  margin: 55px;
+  margin-bottom: 10px; 
 }
-
 
 .categories {
     display: flex;
