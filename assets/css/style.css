@@ -137,6 +137,7 @@ body {
     display: flex;
     gap: 30px;
     margin: auto;
+    padding: 0;
 }
 
 card1,
@@ -152,7 +153,9 @@ card6 {
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 2rem;
-    margin:15px;
+    margin:40px;
+    padding: 5px;
+    margin-top: 0;
 }
 
 card1 img,
@@ -177,6 +180,7 @@ card6 img {
 }
 
 .frutas{
-  margin: 60px;
+  margin: 55px;
+  margin-bottom: 10px; 
 }
 
