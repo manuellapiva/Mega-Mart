@@ -26,6 +26,20 @@ body {
     color: rgb(105, 133, 255);
 }
 
+.prime, .prime1, .prime2, .back1 {
+    display: flex;
+}
+
+.toplist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subs {
+    display: flex;
+}
+
 .mid {
     display: flex;
     flex-direction: row;
@@ -227,7 +241,7 @@ cards5,
 cards6 {
     border-radius: 12px;
     background-color:rgb(235, 239, 241);
-    box-shadow: 0 1px 1px var rgb(0, 4, 8);
+    box-shadow: 0 1px 1px rgb(0, 4, 8);
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 2rem;
@@ -431,4 +445,105 @@ cards6 img {
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .toplist {
+        border-top: none;
+    }
+    .smartphones{
+        border-bottom: none;
+        margin: 0;
+    }
+
+    .up {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        width: auto;
+    }
+
+    .midmid{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .comidas, .brands, .categories {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .comidas {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .upper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mid {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .toplist ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .midmid {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .prime, .prime1, .prime2, .back1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hfoto img {
+        width: 100%;
+        height: auto;
+    }
+
+    .smartphones {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 13px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .subs {
+        gap: 25px;
+        font-size: 13px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .section {
+        width: auto;
+    }
 }
