@@ -447,6 +447,60 @@ cards6 img {
     margin-bottom: 20px;
 }
 
+@media (min-width: 768px) and (max-width:1199px) {
+
+    .cards {
+        gap: 20px;
+        justify-content: center;
+    }
+    .categories {
+        display: flex;
+        gap: 10px;
+        margin: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .circle1,
+    .circle2,
+    .circle3,
+    .circle4,
+    .circle5,
+    .circle6,
+    .circle7 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .categories img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .brands {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .cardmarca {
+        width: 40vw;
+    }
+
+    .smartphones {
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .comidas {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 768px) {
 
     .toplist {
