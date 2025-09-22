@@ -55,6 +55,11 @@ body {
   margin-right: 15px;
 }
 
+.hfoto {
+  display: flex;
+  justify-content: center;
+}
+
 .menu a {
   display: block;
   padding: 14px;
@@ -124,6 +129,166 @@ body {
   text-align: center;
   margin-top: 25px;
   font-size: 14px;
-  border-top: 1px solid rgba(153, 152, 152, 0.4);
+  border-top: 1px solid gray;
   padding-top: 15px;
+}
+
+.cards{
+    display:flex;
+    justify-content: space-around;
+}
+.card1{
+    border:1px solid;
+    border-radius:10px;
+    padding:15px;
+    text-align: center;
+    box-shadow:0 2px 5px black;
+}
+
+.card2{
+    border:1px solid;
+    border-radius:10px;
+    padding:15px;
+    text-align: center;
+    box-shadow:0 2px 5px black;
+}
+
+.card3{
+    border:1px solid;
+    border-radius:10px;
+    padding:15px;
+    text-align: center;
+    box-shadow:0 2px 5px black;
+}
+
+.card4{
+    border:1px solid;
+    border-radius:10px;
+    padding:15px;
+    text-align: center;
+    box-shadow:0 2px 5px black;
+}
+
+.card5{
+    border:1px solid;
+    border-radius:10px;
+    padding:15px;
+    text-align: center;
+    box-shadow:0 2px 5px black;
+}
+
+.discount {
+    display: flex;
+    margin-left: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+    background-color: #039be5;
+    width: fit-content;
+}
+
+
+.categories {
+    display: flex;
+    gap: 15px;
+    margin: 50px;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6,
+.circle7 {
+width: 100%;
+border-radius: 50%;
+width: 1000px;
+height: 180px;
+background-color: white;
+box-shadow: 0 1px 5px black;
+font-family: Arial, sans-serif;
+text-align: center;
+}
+
+.categories img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-top: 1rem;
+} 
+
+.brands{
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cardmarca{
+    border:1px solid;
+    border-radius:10px;
+    padding:15px;
+    text-align: center;
+    box-shadow:0 2px 5px black;
+    background-color: white;
+      width:30vw;
+}
+
+.iphone {
+  background: #111;
+  display: flex;
+  gap: 10px;
+}
+
+.realme{
+  background: #fbc02d;
+  color: #111;
+  width:30vw;
+
+}
+
+.xiaomi {
+  background: #ffb39b;
+  width:30vw;
+}
+
+.seeall{
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+.seeall:hover {
+    background-color: #039be5;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.smartphones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 2px solid rgb(226, 233, 240);
+}
+
+.text {
+    display: flex;
+    gap: 8px;
+    border-bottom: 2px solid #039be5;
+}
+
+.text .first {
+    color: gray;
+}
+
+.text .second {
+    color: #039be5;
 }
