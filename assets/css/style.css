@@ -98,6 +98,7 @@ body {
 }
 
 .cards {
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -218,29 +219,18 @@ footer {
     padding-top: 15px;
 }
 
-.s1,
-.s2 {
-    margin: 0;
-    display: flex;
-    gap: 30px;
-    margin: auto;
-    padding: 0;
-}
-
 cards1,
 cards2,
 cards3,
 cards4,
 cards5,
 cards6 {
-    width: 15%;
     border-radius: 12px;
     background-color:rgb(235, 239, 241);
     box-shadow: 0 1px 1px var rgb(0, 4, 8);
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 2rem;
-    margin:40px;
     padding: 5px;
     margin-top: 0;
 }
@@ -264,7 +254,8 @@ cards6 img {
 }
 .links{
     background-color: rgb(3, 162, 254);
-=======
+}
+
 .cards {
     display: flex;
     justify-content: space-around;
@@ -432,4 +423,12 @@ cards6 img {
 
 .text .second {
     color: #039be5;
+}
+
+.comidas {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
 }
