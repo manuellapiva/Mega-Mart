@@ -91,7 +91,7 @@ border-radius: 10px;
   text-decoration: none;
 }
 
-.footer {
+footer {
   background: #039be5; 
   color: #fff;
   padding: 40px 20px 20px;
@@ -144,4 +144,10 @@ border-radius: 10px;
   font-size: 14px;
   padding-top: 18px;
   background: #0fa2ec;
+}
+
+.final {
+  border-top: 2px solid rgba(253, 252, 252, 0.5);
+  display: flex;
+  justify-content: center;
 }
