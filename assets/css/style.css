@@ -62,8 +62,8 @@ body {
 }
 
 .footer {
+  background: #039be5; 
   background: #039be5;
-  /* Azul */
   color: #fff;
   padding: 40px 20px 20px;
 }
@@ -110,23 +110,20 @@ body {
 }
 
 .footer-section ul {
-  list-style: none;
+ 
   padding: 0;
 }
 
-.footer-section ul li {
-  margin: 8px 0;
-  cursor: pointer;
-}
+
 
 .footer-section ul li:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .final {
   text-align: center;
   margin-top: 25px;
   font-size: 14px;
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(153, 152, 152, 0.4);
   padding-top: 15px;
 }
