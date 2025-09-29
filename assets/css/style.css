@@ -4,7 +4,7 @@ body {
     font-weight: lighter;
     background-color: aliceblue;
 }
-
+/* Header : Gustavo e Ayla */
 .hfoto {
     display: flex;
     justify-content: center;
@@ -111,6 +111,8 @@ body {
     text-decoration: none;
 }
 
+/* Middle : Manuela e Maria Melato */
+
 .cards {
     margin-top: 20px;
     display: flex;
@@ -166,7 +168,7 @@ body {
     background-color: #039be5;
     width: fit-content;
 }
-
+/* Footer : Gabriella e Maria Vitória */
 footer {
     background: #039be5;
     color: #fff;
@@ -232,7 +234,7 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.4);
     padding-top: 15px;
 }
-
+/* Cards de Frutas : Gabriella */
 cards1,
 cards2,
 cards3,
@@ -263,13 +265,12 @@ cards6 img {
 .s3 {
     background-color: rgb(3, 162, 254);
     text-decoration: none; 
-    
-    
 }
 .links{
     background-color: rgb(3, 162, 254);
 }
 
+/* Cards de Celulares : Manuela e Maria Melato */
 .cards {
     display: flex;
     justify-content: space-around;
@@ -325,7 +326,7 @@ cards6 img {
     gap: 15px;
     margin: 50px;
 }
-
+/* Círculos: Manuela e Maria Melato */
 .circle1,
 .circle2,
 .circle3,
@@ -349,7 +350,7 @@ cards6 img {
     height: 100px;
     padding-top: 1rem;
 }
-
+/* Retângulos com Celulares : Manuela e Maria Melato */
 .brands {
     display: flex;
     justify-content: space-around;
@@ -402,7 +403,7 @@ cards6 img {
 .xiaomi img {
     width: 150px;
 }
-
+/* Linhas divisórias : Gustavo e Manuela */
 .seeall {
     text-decoration: none;
     color: black;
@@ -446,7 +447,7 @@ cards6 img {
     margin: auto;
     margin-bottom: 20px;
 }
-
+/* Responsividade para Tablet : Ayla */
 @media (min-width: 768px) and (max-width:1199px) {
 
     .cards {
@@ -500,7 +501,7 @@ cards6 img {
         justify-content: center;
     }
 }
-
+/* Resposividade para Celular : Gustavo */
 @media (max-width: 768px) {
 
     .toplist {
