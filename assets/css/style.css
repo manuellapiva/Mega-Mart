@@ -1,25 +1,23 @@
-:root{
+:root {
 
---backclear: rgb(226, 233, 240);
---h1blue: : rgb(105, 133, 255);
---background: aliceblue;
---backinput: rgb(206, 236, 255);
---white: white;
---black: black;
---backblue: #039be5;
---borderbtm: rgba(253, 252, 252, 0.5);
---backfoot: #0fa2ec;
---bordertop: rgba(255, 255, 255, 0.4);
---backcard: rgb(235, 239, 241);
---shadow: rgb(0, 4, 8);
---backlb: rgb(3, 162, 254);
---iphonebk: #111;
---realmebk: #f7e8b8;
---xiaomibk: #ffb39b;
---gray: gray;
+    --backclear: rgb(226, 233, 240);
+    --h1blue: rgb(105, 133, 255);
+    --background: aliceblue;
+    --backinput: rgb(206, 236, 255);
+    --white: white;
+    --black: black;
+    --backblue: #039be5;
+    --borderbtm: rgba(253, 252, 252, 0.5);
+    --backfoot: #0fa2ec;
+    --bordertop: rgba(255, 255, 255, 0.4);
+    --backcard: rgb(235, 239, 241);
+    --shadow: rgb(0, 4, 8);
+    --backlb: rgb(3, 162, 254);
+    --iphonebk: #111;
+    --realmebk: #f7e8b8;
+    --xiaomibk: #ffb39b;
+    --gray: gray;
 }
-
-
 
 body {
     margin: 0;
@@ -28,7 +26,11 @@ body {
     background-color: var(--background);
 }
 
+/* Header : Gustavo e Ayla */
 .hfoto {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -45,24 +47,6 @@ body {
     gap: 10px;
 }
 
-.mid h1 {
-    color: var(--h1blue);
-}
-
-.prime, .prime1, .prime2, .back1 {
-    display: flex;
-}
-
-.toplist {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.subs {
-    display: flex;
-}
-
 .mid {
     display: flex;
     flex-direction: row;
@@ -71,12 +55,8 @@ body {
     background-color: var(--background);
 }
 
-.midmid {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
+.mid h1 {
+    color: var(--h1blue);
 }
 
 .mid input {
@@ -87,8 +67,28 @@ body {
     border-radius: 10px;
 }
 
+.midmid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.subs {
+    display: flex;
+}
+
+.prime,
+.prime1,
+.prime2,
+.back1 {
+    display: flex;
+}
+
 .toplist {
     display: flex;
+    align-items: center;
     justify-content: center;
     border-top: 2px solid var(--backclear);
 }
@@ -113,26 +113,16 @@ body {
     background-color: var(--h1blue);
 }
 
-.toplist a:hover {
-    color: var(--bordertop);
-}
-
 .toplist a {
     color: var(--black);
     text-decoration: none;
 }
 
-.hfoto {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
+.toplist a:hover {
+    color: var(--bordertop);
 }
 
-.menu a {
-    display: block;
-    padding: 14px;
-    text-decoration: none;
-}
+/* Middle : Manuela e Maria Melato */
 
 .cards {
     margin-top: 20px;
@@ -190,159 +180,7 @@ body {
     width: fit-content;
 }
 
-footer {
-    background: var(--backblue);
-    color: var(--white);
-    padding: 40px 20px 20px;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.footer-section {
-    flex: 1;
-    margin: 15px;
-    min-width: 220px;
-}
-
-.logo {
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.espaço p {
-    margin: 8px 0;
-}
-
-.download-app p {
-    margin: 15px 0 10px;
-    font-weight: bold;
-}
-
-.app-badge {
-    height: 40px;
-    margin: 5px;
-}
-
-.footer-section h3 {
-    margin-bottom: 12px;
-    font-size: 18px;
-    border-bottom: 2px solid var(--borderbtm);
-    padding-bottom: 5px;
-}
-
-.footer-section ul {
-    padding: 0;
-}
-
-.footer-section-final {
-    text-align: center;
-    font-size: 14px;
-    padding-top: 18px;
-    background: var(--backfoot);
-}
-
-.final {
-    text-align: center;
-    margin-top: 25px;
-    font-size: 14px;
-    border-top: 1px solid var(--bordertop);
-    padding-top: 15px;
-}
-
-cards1,
-cards2,
-cards3,
-cards4,
-cards5,
-cards6 {
-    border-radius: 12px;
-    background-color: var(--backcard);
-    box-shadow: 0 1px 1px var(--shadow);
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 2rem;
-    padding: 5px;
-    margin-top: 0;
-}
-
-cards1 img,
-cards2 img,
-cards3 img,
-cards4 img,
-cards5 img,
-cards6 img {
-    height: 160px;
-    padding-top: 1rem;
-    flex-direction: row;
-    
-}
-.s3 {
-    background-color: var(--backlb);
-    text-decoration: none; 
-    
-    
-}
-.links{
-    background-color: var(--backlb);
-}
-
-.cards {
-    display: flex;
-    justify-content: space-around;
-}
-
-.card1 {
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 2px 5px var(--black);
-}
-
-.card2 {
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 2px 5px var(--black);
-}
-
-.card3 {
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 2px 5px var(--black);
-}
-
-.card4 {
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 2px 5px var(--black);
-}
-
-.card5 {
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 2px 5px var(--black);
-}
-
-.frutas{
-  margin: 55px;
-  margin-bottom: 10px; 
-}
-
+/* Círculos: Manuela e Maria Melato */
 .categories {
     display: flex;
     gap: 15px;
@@ -373,6 +211,7 @@ cards6 img {
     padding-top: 1rem;
 }
 
+/* Retângulos com Celulares : Manuela e Maria Melato */
 .brands {
     display: flex;
     justify-content: space-around;
@@ -405,6 +244,7 @@ cards6 img {
 .iphone img {
     width: 150px;
 }
+
 .realme {
     display: flex;
     background: var(--realmebk);
@@ -426,6 +266,53 @@ cards6 img {
     width: 150px;
 }
 
+/* Cards de Frutas : Gabriella */
+.comidas {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+cards1,
+cards2,
+cards3,
+cards4,
+cards5,
+cards6 {
+    border-radius: 12px;
+    background-color: var(--backcard);
+    box-shadow: 0 1px 1px var(--shadow);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 5px;
+    margin-top: 0;
+}
+
+cards1 img,
+cards2 img,
+cards3 img,
+cards4 img,
+cards5 img,
+cards6 img {
+    height: 160px;
+    padding-top: 1rem;
+    flex-direction: row;
+
+}
+
+.s3 {
+    background-color: var(--backlb);
+    text-decoration: none;
+}
+
+.links {
+    background-color: var(--backlb);
+}
+
+/* Linhas divisórias : Gustavo e Manuela */
 .seeall {
     text-decoration: none;
     color: var(--black);
@@ -433,7 +320,7 @@ cards6 img {
 }
 
 .seeall:hover {
-    background-color:var(--backblue);
+    background-color: var(--backblue);
     color: var(--white);
     padding: 3px;
     border-radius: 5px;
@@ -462,26 +349,93 @@ cards6 img {
     color: var(--backblue);
 }
 
-.comidas {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 20px;
+/* Footer : Gabriella e Maria Vitória */
+footer {
+    background: var(--backblue);
+    color: var(--white);
+    padding: 40px 20px 20px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.espaço p {
+    margin: 8px 0;
+}
+
+.download-app p {
+    margin: 15px 0 10px;
+    font-weight: bold;
+}
+
+.app-badge {
+    height: 40px;
+    margin: 5px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 15px;
+    min-width: 220px;
+}
+
+
+.footer-section h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    border-bottom: 2px solid var(--borderbtm);
+    padding-bottom: 5px;
+}
+
+.footer-section ul {
+    padding: 0;
+}
+
+.footer-section-final {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 18px;
+    background: var(--backfoot);
+}
+
+.final {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    border-top: 1px solid var(--bordertop);
+    padding-top: 15px;
+}
+
+/* Responsividade para Tablet : Ayla */
 @media (min-width: 768px) and (max-width:1199px) {
 
     .cards {
         gap: 20px;
         justify-content: center;
     }
+
     .categories {
         display: flex;
         gap: 10px;
         margin: 20px;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .categories img {
+        width: 80px;
+        height: 80px;
     }
 
     .circle1,
@@ -493,11 +447,6 @@ cards6 img {
     .circle7 {
         width: 150px;
         height: 150px;
-    }
-
-    .categories img {
-        width: 80px;
-        height: 80px;
     }
 
     .brands {
@@ -524,37 +473,14 @@ cards6 img {
     }
 }
 
+/* Resposividade para Celular : Gustavo */
 @media (max-width: 768px) {
-
-    .toplist {
-        border-top: none;
-    }
-    .smartphones{
-        border-bottom: none;
-        margin: 0;
-    }
 
     .up {
         flex-direction: column;
         text-align: center;
         gap: 10px;
         width: auto;
-    }
-
-    .midmid{
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
-
-    .comidas, .brands, .categories {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .comidas {
-        gap: 20px;
-        justify-content: center;
     }
 
     .upper {
@@ -567,18 +493,26 @@ cards6 img {
         gap: 10px;
     }
 
+    .midmid {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .toplist {
+        border-top: none;
+    }
+
     .toplist ul {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-    
-    .midmid {
-        flex-direction: column;
-        gap: 10px;
-    }
 
-    .prime, .prime1, .prime2, .back1 {
+    .prime,
+    .prime1,
+    .prime2,
+    .back1 {
         display: flex;
         flex-direction: column;
     }
@@ -589,20 +523,34 @@ cards6 img {
     }
 
     .smartphones {
+        border-bottom: none;
+        margin: 0;
         display: flex;
         flex-direction: column;
         gap: 20px;
         font-size: 13px;
     }
 
-    .cards{
+    .comidas,
+    .brands,
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .comidas {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .cards {
         display: flex;
         flex-direction: column;
         gap: 20px;
         justify-content: center;
     }
 
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -613,14 +561,14 @@ cards6 img {
         font-size: 13px;
     }
 
+    .section {
+        width: auto;
+    }
+
     footer {
         display: flex;
         justify-content: center;
         text-align: center;
         flex-direction: column;
-    }
-
-    .section {
-        width: auto;
     }
 }
