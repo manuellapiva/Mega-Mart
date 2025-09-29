@@ -1,22 +1,22 @@
-:root{
+:root {
 
---backclear: rgb(226, 233, 240);
---h1blue: rgb(105, 133, 255);
---background: aliceblue;
---backinput: rgb(206, 236, 255);
---white: white;
---black: black;
---backblue: #039be5;
---borderbtm: rgba(253, 252, 252, 0.5);
---backfoot: #0fa2ec;
---bordertop: rgba(255, 255, 255, 0.4);
---backcard: rgb(235, 239, 241);
---shadow: rgb(0, 4, 8);
---backlb: rgb(3, 162, 254);
---iphonebk: #111;
---realmebk: #f7e8b8;
---xiaomibk: #ffb39b;
---gray: gray;
+    --backclear: rgb(226, 233, 240);
+    --h1blue: rgb(105, 133, 255);
+    --background: aliceblue;
+    --backinput: rgb(206, 236, 255);
+    --white: white;
+    --black: black;
+    --backblue: #039be5;
+    --borderbtm: rgba(253, 252, 252, 0.5);
+    --backfoot: #0fa2ec;
+    --bordertop: rgba(255, 255, 255, 0.4);
+    --backcard: rgb(235, 239, 241);
+    --shadow: rgb(0, 4, 8);
+    --backlb: rgb(3, 162, 254);
+    --iphonebk: #111;
+    --realmebk: #f7e8b8;
+    --xiaomibk: #ffb39b;
+    --gray: gray;
 }
 
 body {
@@ -25,11 +25,12 @@ body {
     font-weight: lighter;
     background-color: var(--background);
 }
+
 /* Header : Gustavo e Ayla */
 .hfoto {
     display: flex;
     justify-content: center;
-        margin-top: 10px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -78,7 +79,10 @@ body {
     display: flex;
 }
 
-.prime, .prime1, .prime2, .back1 {
+.prime,
+.prime1,
+.prime2,
+.back1 {
     display: flex;
 }
 
@@ -182,6 +186,7 @@ body {
     gap: 15px;
     margin: 50px;
 }
+
 .circle1,
 .circle2,
 .circle3,
@@ -239,6 +244,7 @@ body {
 .iphone img {
     width: 150px;
 }
+
 .realme {
     display: flex;
     background: var(--realmebk);
@@ -294,13 +300,15 @@ cards6 img {
     height: 160px;
     padding-top: 1rem;
     flex-direction: row;
-    
+
 }
+
 .s3 {
     background-color: var(--backlb);
-    text-decoration: none; 
+    text-decoration: none;
 }
-.links{
+
+.links {
     background-color: var(--backlb);
 }
 
@@ -312,7 +320,7 @@ cards6 img {
 }
 
 .seeall:hover {
-    background-color:var(--backblue);
+    background-color: var(--backblue);
     color: var(--white);
     padding: 3px;
     border-radius: 5px;
@@ -416,6 +424,7 @@ footer {
         gap: 20px;
         justify-content: center;
     }
+
     .categories {
         display: flex;
         gap: 10px;
@@ -428,7 +437,7 @@ footer {
         width: 80px;
         height: 80px;
     }
-    
+
     .circle1,
     .circle2,
     .circle3,
@@ -463,9 +472,10 @@ footer {
         justify-content: center;
     }
 }
+
 /* Resposividade para Celular : Gustavo */
 @media (max-width: 768px) {
-    
+
     .up {
         flex-direction: column;
         text-align: center;
@@ -483,12 +493,12 @@ footer {
         gap: 10px;
     }
 
-    .midmid{
+    .midmid {
         flex-direction: column;
         text-align: center;
         gap: 10px;
     }
-    
+
     .toplist {
         border-top: none;
     }
@@ -499,7 +509,10 @@ footer {
         gap: 10px;
     }
 
-    .prime, .prime1, .prime2, .back1 {
+    .prime,
+    .prime1,
+    .prime2,
+    .back1 {
         display: flex;
         flex-direction: column;
     }
@@ -509,16 +522,18 @@ footer {
         height: auto;
     }
 
-    .smartphones{
+    .smartphones {
         border-bottom: none;
         margin: 0;
-                display: flex;
+        display: flex;
         flex-direction: column;
         gap: 20px;
         font-size: 13px;
     }
 
-    .comidas, .brands, .categories {
+    .comidas,
+    .brands,
+    .categories {
         display: flex;
         flex-wrap: wrap;
     }
@@ -528,14 +543,14 @@ footer {
         justify-content: center;
     }
 
-    .cards{
+    .cards {
         display: flex;
         flex-direction: column;
         gap: 20px;
         justify-content: center;
     }
 
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
